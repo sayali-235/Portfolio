@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="icon" href="./Resources/icons/sd.jpg">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="stylesheet" href="./CSS/responsive.css">
+
+    </head>
+    
+    <body>
+     
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                 <h2 class="logo-heading">Sayali Divekar</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+               <div class="line1"></div>
+               <div class="line1"></div>
+               <div class="line1"></div>
+            </div>
+            <div class="menu">
+                <ul class="menu-list" id="menu">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                            </a>
+                        </li>
+                        <li class="menu-list-items">
+                        <a class="links" href="#education">
+                              Education
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                              Skills
+                            </a>
+                        </li>
+                        <li class="menu-list-items">
+                            <a class="links" href="#services">
+                                Projects
+                            </a>
+                        </li>
+                        <li class="menu-list-items">
+                            <a class="links" href="#contact">
+                                Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+        </nav>
+    </header>
+    
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Sayali Divekar</h1>
+                <h4 class="sub-heading">
+                     Java Full Stack Developer
+                </h4>
+                <p class="line">Turning Ideas into Reality through Code and Creativity</p>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn ghost-btn" onclick="downloadResume()">Get Resume</button>
+            </div>
+             
+        </div>
+        <div class="photo" >
+            <img src="./Resources/images/1000178247-01.jpg" alt="photo" id="personal">
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="./Resources/images/1000178247-01.jpg" alt="About Image">
+        </div>
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+                I am <b>Sayali Divekar</b>, a <b>Java Full Stack Developer</b> passionate about building 
+                innovative and efficient web applications. With expertise in Core Java, JSP, 
+                JDBC, MySQL, HTML, CSS, and JavaScript, I specialize in creating seamless 
+                user experiences and robust backend systems. My journey in development is 
+                driven by curiosity, problem-solving, and a commitment to writing clean, 
+                scalable code. I thrive in dynamic environments, adapt quickly to new c
+                hallenges, and collaborate effectively to develop high-quality applications. 
+                Constantly exploring new technologies, I aim to contribute to impactful 
+                projects that drive innovation and efficiency.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education section  -->
+    <section id="education" class="education">
+       
+            <div class="portfolio-heading">
+
+                <h1 class="my-heading text-center">Education</h1>
+            </div>
+            <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="port-card">
+
+                        <div>
+                            <h3 class="greet-heading blue-text">B.E (Information Technology)</h3>
+                            <h4 class="small-para blue-text">Datta Meghe College of Engineering, Airoli</h4>
+                            <h4 class="small-para blue-text">CGPA: 8.70</h4>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="my-col">
+                    <div class="port-card">
+
+                        <div>
+                            <h3 class="greet-heading blue-text">Diploma (Computer Engineering)</h3>
+                            <h4 class="small-para blue-text">Dr.D.Y.Patil School of Polytechnic, Nerul</h4>
+                            <h4 class="small-para blue-text">Percentage: 87.03</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="port-card">
+
+                        <div>
+                            <h3 class="greet-heading blue-text">SSC</h3>
+                            <h4 class="small-para blue-text">Sudhagad Education Society, Kalamboli</h4>
+                            <h4 class="small-para blue-text">Percentage: 89.60</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Skills</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="port-card">
+                        
+                        <h3 class="greet-heading blue-text">Frontend Development</h3>
+                        <p class="small-para blue-text">HTML, CSS, Javascript, ReactJS</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="port-card">
+                         
+                        <h3 class="greet-heading blue-text">Backend Development
+                          </h3>
+                        <p class="small-para blue-text">Java, SQL</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="port-card">
+                         
+                        <h3 class="greet-heading blue-text">Database</h3>
+                        <p class="small-para blue-text">MySQL</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="port-card">
+                        
+                        <h3 class="greet-heading blue-text">
+                              Framework
+                          </h3>
+                        <p class="small-para blue-text">Hibernate</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="port-card">
+                         
+                        <h3 class="greet-heading blue-text">
+                              JSP
+                          </h3>
+                        <p class="small-para blue-text">
+                            JavaServer Pages
+                          </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="port-card">
+                        
+                        <h3 class="greet-heading blue-text">
+                              JDBC
+                          </h3>
+                        <p class="small-para blue-text">Java Database Connectivity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Projects Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Projects</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                         
+                        <h3 class="greet-heading blue-text">Emp Info Control</h3>
+                        <p class="small-para">
+                            EmpInfo Control is a Java-based employee 
+                            management system that enables employers to 
+                            securely manage employee records with CRUD 
+                            operations (Create, Read, Update, Delete). 
+                            Built using JSP, JDBC, MySQL, and exception 
+                            handling, the system includes login and 
+                            registration features for secure access. 
+                            Employers can efficiently add, update, view, 
+                            and delete employee details, ensuring 
+                            streamlined workforce management.
+                        </p>
+                         
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        
+                        <h3 class="greet-heading blue-text">
+                              Gramin Business
+                          </h3>
+                        <p class="small-para">
+                            Gramin Business is an online marketplace 
+                            that connects vendors and consumers for 
+                            buying and selling soil and wooden products.
+                             Built using HTML, CSS, Java, JSP, JDBC, 
+                             and MySQL, the system features three user 
+                             roles—admin, vendor, and consumer. Vendors
+                              can add products with images and details,
+                               while consumers can browse, order, or 
+                               cancel purchases. Admins manage user 
+                               data, ensuring a smooth and direct 
+                               trade experience without intermediaries.
+                        </p>
+                         
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        
+                        <h3 class="greet-heading blue-text">TEXTIFY-The Text Translator</h3>
+                        <p class="small-para">
+                            Smart Text Converter is an AI-powered system that 
+                            extracts text from images using OCR technology for 
+                            both printed and handwritten text. It integrates 
+                            speech recognition for accurate spoken word 
+                            transcription and speech-to-text conversion for 
+                            seamless text generation. Built with Python and 
+                            language translation APIs, it allows users to 
+                            convert extracted or transcribed text into 
+                            multiple languages, enhancing accessibility 
+                            and communication.
+                        </p>
+                         
+                    </div>
+                </div>
+            </div>
+             
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="email" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="number" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">sayalidivekar235@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 9594263089</p>
+                </div>
+                 
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">Kalamboli,</p>
+                    <p>Navi Mumbai</p>
+                    <p>410 218</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+             
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                         
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="mailto:sayalidivekar235@gmail.com">
+                     
+                                 <img src="./Resources/icons/Email.png" alt="Email">
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://github.com/sayali-235">
+                         
+                                 <img src="./Resources/icons/GitHub.png" alt="GitHub">
+                            </a>
+                        </li>
+                        
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.linkedin.com/in/sayali-divekar-b70860248/">
+                        
+                                 <img src="./Resources/icons/LinkedIN.png" alt="LinkedIN">
+                            </a>
+                        </li>
+                         
+                    </ul>
+                    <p id="copyright">© 2025 Sayali Divekar. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="./Script/script.js"></script>
+     
+</body>
+
+</html>
