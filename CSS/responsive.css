@@ -2,13 +2,13 @@
 /* CSS for tablet devices */
 @media screen and (min-width: 576px) and (max-width: 820px) {
     
-    body {
+    /* body {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
      
-    }
+    } */
     .logo {
         padding: 0 3rem; 
     }
@@ -100,27 +100,30 @@
 
 
 /* CSS for mobile devices */
-@media screen and (min-width: 280px) and (max-width: 576px) {
+@media screen and  (max-width: 600px) {
     body {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
+        width: 100%;
+        
      
     }
     .hero {
+        width: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         
-        margin: 0rem 0rem 2rem 0rem;
+        /* margin: 0rem 0rem 2rem 0rem; */
         padding: 10rem 20rem 10rem 5rem;
        
         color: #fff;
         background-image: radial-gradient(circle, rgb(15 14 14 / 30%), rgb(102 96 96 / 40%), rgb(163 160 160 / 16%));
     }
     .hero .intro{
-        padding: 20rem 15rem 2rem 1rem;
+        padding: 15rem 0rem 3rem 10rem;
     }
     .sub-heading {
         
@@ -136,7 +139,7 @@
 
     .photo #personal{
          
-       margin: 0 9rem 10rem 1rem;
+       margin: 0 0rem 10rem 15rem;
  
         width: 200px;
         height: 300px;
@@ -246,6 +249,10 @@
     .my-row .my-col {
         text-align: center;
         width: 100%;
+    }
+
+    .my-card{
+         margin: 0rem 2rem 1rem 2rem;
     }
 
     .contact {
