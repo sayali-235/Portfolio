@@ -318,6 +318,7 @@ body {
 .footer-menu .footer-menu-list {
     display: flex;
     list-style: none;
+    justify-content: space-evenly;
 }
 
 #copyright{
